@@ -1,7 +1,9 @@
 package ru.job4j.calculate;
 
 /**
-* Конструктор, вывод строки в консоль
+* Calculate
+*
+*@author Aleksandr Kostiuk (KengyRoo@main.ru)
 */
 
 public class Calculate {
