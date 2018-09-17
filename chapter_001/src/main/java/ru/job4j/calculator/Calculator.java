@@ -6,7 +6,7 @@
 
 package ru.job4j.calculator;
 
-    public class Calculator {
+public class Calculator {
     private double result;
 
     /**
