@@ -20,7 +20,7 @@ public class Point {
         );
     }
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Point a = new Point(0,1);
         Point b = new Point(1,5);
         //Вывод на консоль
@@ -32,5 +32,5 @@ public class Point {
         System.out.println("Растояние между точками А и В =" + result);
     }
 
-
+*/
 }
