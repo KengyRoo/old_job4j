@@ -9,7 +9,14 @@ package ru.job4j.loop;
 public class Factorial {
 
    public int factorial(int num) {
-       if (num == 0) return 1;
-       return num * factorial(num - 1);
+       int result = 1;
+       if (num == 0) {
+           return result;
+       } else {
+           for (int i = 1; i <= num; i++) {
+           result = result * i;
+       }
+   }
+       return result;
    }
 }
