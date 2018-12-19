@@ -1,6 +1,7 @@
 package ru.job4j.array;
 
 import org.junit.Test;
+
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.fail;
@@ -39,11 +40,11 @@ public class CheckTest {
     }
 
     @Test
-    public void whenDataNotMonoByTTF(){
+    public void whenDataNotMonoByTTF() {
         Check check = new Check();
         boolean[] input = new boolean[]{true, true, false};
         boolean result = check.mono(input);
-        assertThat(result,is(false));
+        assertThat(result, is(false));
     }
 
 }

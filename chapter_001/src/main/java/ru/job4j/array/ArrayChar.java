@@ -12,14 +12,14 @@ package ru.job4j.array;
 public class ArrayChar {
     private char[] data;
 
-    public ArrayChar(String line){
-
+    public ArrayChar(String line) {
         this.data = line.toCharArray();
     }
 
     /**
      * Проверяет, что слово начинает с префикса.
-     * @param  prefix префикс.
+     *
+     * @param prefix префикс.
      * @return если слово начинается с префикса
      */
     public boolean startWith(String prefix) {

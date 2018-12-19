@@ -1,8 +1,9 @@
 package ru.job4j.calculate;
 
-        import org.junit.Test;
-        import static org.hamcrest.core.Is.is;
-        import static org.junit.Assert.assertThat;
+import org.junit.Test;
+
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertThat;
 
 /**
  * Test.
@@ -14,7 +15,8 @@ package ru.job4j.calculate;
 public class CalculateTest {
     /**
      * Test echo.
-     */ @Test
+     */
+    @Test
     public void whenTakeNameThenTreeEchoPlusName() {
         String input = "Aleksandr Kostiuk";
         String expect = "Echo, echo, echo : Aleksandr Kostiuk";

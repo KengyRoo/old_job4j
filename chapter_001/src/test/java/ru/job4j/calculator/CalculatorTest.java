@@ -1,9 +1,9 @@
 package ru.job4j.calculator;
 
-        import org.junit.Test;
+import org.junit.Test;
 
-        import static org.hamcrest.core.Is.is;
-        import static org.junit.Assert.assertThat;
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertThat;
 
 public class CalculatorTest {
 
@@ -34,8 +34,9 @@ public class CalculatorTest {
         double expected = 1D;
         assertThat(result, is(expected));
     }
+
     @Test
-    public void whenMultiple2on2then4(){
+    public void whenMultiple2on2then4() {
         Calculator calc = new Calculator();
         calc.multiple(2D, 2D);
         double result = calc.getResult();
