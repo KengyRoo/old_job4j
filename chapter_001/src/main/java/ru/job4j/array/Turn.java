@@ -1,6 +1,7 @@
 package ru.job4j.array;
 
 /*
+ *Перевернуть массив
  *@author Aleksandr Kostiuk (KengyRoo@main.ru)
  *@Автор Александр Костюк (KengyRoo@main)
  */

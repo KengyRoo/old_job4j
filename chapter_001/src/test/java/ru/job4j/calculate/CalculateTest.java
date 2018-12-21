@@ -7,15 +7,11 @@ import static org.junit.Assert.assertThat;
 
 /**
  * Test.
- *
  * @author Aleksandr Kostiuk (mailto:KengyRoo@mail.ru)
  * @version $Id$
  * @since 0.1
  */
 public class CalculateTest {
-    /**
-     * Test echo.
-     */
     @Test
     public void whenTakeNameThenTreeEchoPlusName() {
         String input = "Aleksandr Kostiuk";

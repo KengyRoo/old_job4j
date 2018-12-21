@@ -1,6 +1,9 @@
 package ru.job4j.calculator;
 
 /**
+ * @author Aleksandr Kostyuk (mailto:KengyRoo@mail.ru)
+ * @version $Id$
+ * @since 0.1
  * Программа расчета идеального веса.
  */
 public class Fit {

@@ -35,19 +35,19 @@ public class Triangle {
      * Метод должен вычислить площадь треугольника.
      *
      * @return Вернуть площадь, если треугольник сущ или -1, если треугольника нет.
+     * мы устанавливает знач -1, т.к. может быть что треугольника нет.Это значение говорит о том, что треугольника нет.
      */
 
     public double area() {
-        double rsl = -1; //мы устанавливает знач -1, т.к. может быть что треугольника нет.Это значение говорит о том, что треугольника нет.
+        double result = -1;
         double ab = this.a.distanceTo(this.b);
         double ac = this.a.distanceTo(this.c);
         double bc = this.b.distanceTo(this.c);
         double p = this.period(ab, ac, bc);
         if (this.exist(ab, ac, bc)) {
-            //формула Герона для расчета площади треугольника
-            rsl = Math.sqrt(p * (p - ab) * (p - ac) * (p - bc));
+            result = Math.sqrt(p * (p - ab) * (p - ac) * (p - bc));
         }
-        return rsl;
+        return result;
     }
 
     /**

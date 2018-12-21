@@ -1,6 +1,9 @@
 package ru.job4j.converter;
 
 /**
+ * @author Aleksandr Kostyuk (KengyRoo@mail.ru)
+ * @version $id$
+ * @since 0.1
  * Корвертор валюты.
  */
 

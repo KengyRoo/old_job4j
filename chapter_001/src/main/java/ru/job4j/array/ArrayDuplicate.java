@@ -1,6 +1,11 @@
 package ru.job4j.array;
 
-import java.lang.reflect.Array;
+/*
+ *Удаление дубликатов в массиве
+ *@author Aleksandr Kostiuk (KengyRoo@main.ru)
+ *@Автор Александр Костюк (KengyRoo@main)
+ */
+
 import java.util.Arrays;
 
 public class ArrayDuplicate {
@@ -9,8 +14,8 @@ public class ArrayDuplicate {
         for (int out = 0; out < unique; out++) {
             for (int in = out + 1; in < unique; in++) {
                 if (array[out].equals(array[in])) {
-                    array[in] = array[unique - 1]; //идем с конца
-                    unique--; //отрезаем последний эл-нт
+                    array[in] = array[unique - 1];
+                    unique--;
                     in--;
                 }
             }
