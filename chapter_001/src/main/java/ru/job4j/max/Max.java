@@ -5,7 +5,6 @@ package ru.job4j.max;
  * @version $id$
  * @since 0.1
  */
-
 public class Max {
 
 
@@ -15,9 +14,13 @@ public class Max {
 
 
     public int max(int first, int second, int third) {
-        return this.max(max(first, second), third);
+        int tmp = max(first,second);
+        return this.max(tmp, third);
+    }
+
+    public int max(int first,int second, int third, int four) {
+        int pmt = max(first,second,third);
+        return this.max(pmt,four);
     }
 }
-
-
 

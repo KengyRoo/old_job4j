@@ -17,8 +17,6 @@ public class MaxTest {
         Max maxim = new Max();
         int result = maxim.max(1, 2);
         assertThat(result, is(2));
-
-
     }
 
     @Test
@@ -33,6 +31,13 @@ public class MaxTest {
         Max maxim = new Max();
         int result = maxim.max(1, 2, 3);
         assertThat(result, is(3));
+    }
+
+    @Test
+    public void Four(){
+        Max maxim = new Max();
+        int result =maxim.max(1,2,3,4);
+        assertThat(result,is(4));
     }
 }
 
